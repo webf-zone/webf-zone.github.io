@@ -1,0 +1,20 @@
+.page-body {
+  max-width: none; }
+
+.terms-conditions-panel {
+  letter-spacing: 1px; }
+  .terms-conditions-panel .terms-conditions-content {
+    font-size: 1.125rem;
+    -webkit-columns: 2 320px;
+       -moz-columns: 2 320px;
+            columns: 2 320px;
+    -webkit-column-gap: 4rem;
+       -moz-column-gap: 4rem;
+            column-gap: 4rem;
+    -webkit-column-rule: 1px solid #F2F2F2;
+       -moz-column-rule: 1px solid #F2F2F2;
+            column-rule: 1px solid #F2F2F2; }
+  .terms-conditions-panel p {
+    font-size: 1.125rem; }
+
+/*# sourceMappingURL=./terms.css.map */

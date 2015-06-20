@@ -1,0 +1,13 @@
+.page-body {
+  max-width: none; }
+
+.code-conduct-panel {
+  letter-spacing: 1px; }
+  .code-conduct-panel h4 {
+    text-transform: uppercase; }
+  .code-conduct-panel p {
+    font-size: 1.125rem; }
+  .code-conduct-panel .simple-person-image {
+    max-width: 200px; }
+
+/*# sourceMappingURL=./code-of-conduct.css.map */
