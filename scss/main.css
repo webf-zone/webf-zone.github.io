@@ -2137,6 +2137,9 @@ body, html {
 .text-italic {
   font-style: italic; }
 
+.text-underline {
+  text-decoration: underline; }
+
 .text-light {
   font-weight: 300; }
 

@@ -2,7 +2,8 @@
   max-width: none; }
 
 .terms-conditions-panel {
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  word-spacing: 5px; }
   .terms-conditions-panel .terms-conditions-content {
     font-size: 1.125rem;
     -webkit-columns: 2 320px;

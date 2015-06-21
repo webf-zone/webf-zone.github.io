@@ -2,7 +2,8 @@
   max-width: none; }
 
 .code-conduct-panel {
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  word-spacing: 5px; }
   .code-conduct-panel h4 {
     text-transform: uppercase; }
   .code-conduct-panel p {
