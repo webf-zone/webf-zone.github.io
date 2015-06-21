@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" prefix="og: http://ogp.me/ns">
 
-<head>
+<head prefix="og: http://ogp.me/ns">
     <meta charset="utf-8">
 
     <!-- If you delete this meta tag World War Z will become a reality -->
@@ -10,6 +10,16 @@
 
     <!--IE Compatibility-->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="Building enterprise web applications with Angular.js">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.webf.zone/">
+    <meta property="og:image" content="http://www.webf.zone/img/wall/social-wall.jpg">
+
+    <meta property="og:site_name" content="&lt;web/F&gt;">
+    <meta property="og:description" content="Web front-end or web-slash-f or simply &lt;web/F&gt; is an initiative for passionate front-end-developers. This time we are going to build enterprise web application with Angular.js. Topics will include Angular, build tools (Gulp, etc.), TDD (Mocha, Jasmine, etc.), code organization, async programming, functional JavaScript and much more.">
 
     <title>WebF</title>
 
@@ -262,7 +272,7 @@
                 <div class="timetable-item">
                     <div class="timetable-icon icon-workshop"></div>
                     <div class="timetable-time">9:15 AM</div>
-                    <h4 class="timetable-heading">Building an enterprise App</h4>
+                    <h4 class="timetable-heading">Building an enterprise app</h4>
                     <p class="timetable-description">
                         We build it till we are hungry. Then we go home at 1:00 PM.
                     </p>
@@ -401,29 +411,15 @@
                     </div>
                 </li>
 
-                <li class="people-list-item clearfix">
+                <li class="people-list-item clearfix hide">
                     <img class="people-image" src="/img/speakers/" alt="Saurabh Maind">
                     <div class="people-content">
                         <h3 class="people-name">Saurabh Maind</h3>
                         <div class="people-short-bio">UI engineer at PubMatic</div>
-                        <ul class="inline-list">
-                            <li><a target="_blank" href="#invalid">@twitter</a></li>
-                        </ul>
                     </div>
                 </li>
 
-                <li class="people-list-item clearfix">
-                    <img class="people-image" src="/img/speakers/" alt="Snehal Mhaske">
-                    <div class="people-content">
-                        <h3 class="people-name">Snehal Mhaske</h3>
-                        <div class="people-short-bio">UI engineer at FlipKart</div>
-                        <ul class="inline-list">
-                            <li><a target="_blank" href="#invalid">@twitter</a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="people-list-item clearfix">
+                <li class="people-list-item clearfix hide">
                     <img class="people-image" src="/img/speakers/" alt="Shreyas Ubale">
                     <div class="people-content">
                         <h3 class="people-name">Shreyas Ubale</h3>
@@ -432,6 +428,17 @@
                 </li>
 
                 <li class="people-list-item clearfix">
+                    <img class="people-image" src="/img/speakers/snehal.jpg" alt="Snehal Mhaske">
+                    <div class="people-content">
+                        <h3 class="people-name">Snehal Mhaske</h3>
+                        <div class="people-short-bio">UI engineer at FlipKart</div>
+                        <div>
+                            <a target="_blank" href="https://in.linkedin.com/pub/snehal-mhaske/16/8a/455">LinkedIn</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="people-list-item clearfix hide">
                     <img class="people-image" src="/img/speakers/" alt="Aditya Kumar">
                     <div class="people-content">
                         <h3 class="people-name">Aditya Kumar</h3>
@@ -498,7 +505,7 @@
             </div>
     
             &#xA9; &lt;web/F&gt; 2015 |
-            Graphics designed by <a href="http://www.freepik.com">Freepik</a> |
+            Graphics designed by <a target="_blank" href="http://www.freepik.com">Freepik</a> |
             Icons made by
             <a target="_blank" href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
             from
