@@ -1,0 +1,1 @@
+{"version":3,"sources":["events/events.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,kBAAkB,EAAE","file":"events/events.css","sourcesContent":[".events-panel {\n  letter-spacing: 1px;\n  word-spacing: 5px; }\n\n"],"sourceRoot":"/source/"}

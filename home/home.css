@@ -82,7 +82,7 @@
       .event-calendar .event-timetable .timetable-item .timetable-icon.icon-quickies {
         background-image: url(/img/icons/comet.png); }
     .event-calendar .event-timetable .timetable-item .timetable-heading, .event-calendar .event-timetable .timetable-item .timetable-description {
-      margin: 0; }
+      margin: 1rem 0; }
     .event-calendar .event-timetable .timetable-item .timetable-heading {
       font-weight: bold; }
 
