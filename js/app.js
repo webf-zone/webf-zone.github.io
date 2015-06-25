@@ -1,4 +1,1 @@
-$(document).ready(function () {
-    // Initialization code
-    $(document).foundation({});
-});
+$(document).ready(function(){$(document).foundation({})});//# sourceMappingURL=./app.js.map
