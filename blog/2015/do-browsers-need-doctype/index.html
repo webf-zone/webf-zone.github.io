@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" prefix="og: http://ogp.me/ns">
+
+<head prefix="og: http://ogp.me/ns">
+    <meta charset="utf-8">
+
+    <!-- If you delete this meta tag World War Z will become a reality -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--IE Compatibility-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+
+
+    <title>Do browsers really need doctype?</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,100,100italic,900italic' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" type="text/css" href="/scss/main.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/topPages.css" />
+
+    <!-- Custom CSS files on page -->
+
+</head>
+
+<body>
+
+    <header class="page-header">
+    
+        <h1 class="logo-container">
+            <a class="logo-link" href="/">
+                <img alt="<web/F>" src="/img/logo/logo.png" />
+            </a>
+        </h1>
+    
+        <ul class="page-master-menu clearfix">
+            <li class="page-master-menu-item"><a class="page-master-menu-link" href="/blog/">Blog</a></li>
+            <li class="page-master-menu-item"><a class="page-master-menu-link" href="/events/">Past</a></li>
+            <li class="page-master-menu-item"><a class="page-master-menu-link" href="/about/">About</a></li>
+        </ul>
+    
+    </header>    <section class="page-body clearfix">
+        <h2>Do browsers really need doctype?</h2>
+        <p>Published on: <time>2015-06-28</time> Last modified: <time>2015-06-30</time></p>
+        <p><strong>The simple answer is &quot;no&quot;.</strong> Theoretically, the browser does not care about Doctype declaration on HTML page.
+Having said that, let&#39;s try to explore what I really mean by that.</p>
+<p>When web started, it was all the rush.
+Everyone was building HTML pages to go online. There were no standards.
+As HTML was simple to use, everyone tried to use.
+There were no sophisticated tools available and everyone hand-coded the HTML which many not be necessarily accurate.
+As HTML was fault tolerant, the errors like missing closing tags, bad nesting, etc. were automatically corrected by the the browsers and so such were the early days of web.
+But this introduced many problems. Every browser tried to handle errors in their own way.
+And again, HTML was going through revisions like HTML 3, HTML 3.2, HTML 4 and so on.</p>
+<p>So in order for pages to be as good quality as possible, <strong>W3C introduced page validators</strong> that would check for the common HTML errors mentioned above.
+But again, there was a problem. Against which version should the page validator validate the page?
+Should it be version 3, 3.2 or 4? How would a validator come to know? And it is not just about validators.
+There are many user agents out there that may need HTML page version information.
+Browser is just one of them. Another user agent, say search bot/crawler may use HTML version information to rank the web page for their date preference.</p>
+<p>Finally, a solution was devised. The solution was to <strong>put XML like Doctype declaration as the very first line of any HTML page.</strong>
+This line would not affect the rendering of HTML page instead it shall provide the meta information about the page against which validators can validate.
+And so is the main motivation behind Doctype declaration in HTML pages.</p>
+<p>Little fast forward in time, W3C established new standards including CSS.
+But browser vendors had implemented CSS standards that was not compatible with W3C standard.
+If browser vendors followed this new rendering mode, the old web pages would simply break and number of web pages was in millions if not in billions.
+So, <strong>the question for browsers was to be backward compatible and at the same time provide support for new standards.</strong>
+So how to solve the problem?</p>
+<p>If I can recall it correctly, Internet Explorer devised a clever mechanism to this problem.
+As old pages did not have Doctype declaration, it assumed that a page without Doctype would be coded using old techniques and thus should be rendered in quirks mode.
+While the presence of Doctype would mean that the page should be rendered as per new standards and thus in standards mode.
+Soon, this technique was adopted by other browsers too. Thus, the Doctype was forever tied to browser.</p>
+<p>The immediate thing to note is that <strong>browser only cares for presence or absence of Doctype and not the version number.</strong>
+Here is a little question. If you use, say, Doctype for HTML 4 and try to include HTML5 audio or video tag and try to display the page on HTML5 capable browser, will it work?
+The answer is certainly yes. It won&#39;t care for Doctype version. This will work even if Doctype is absent; just the thing is it shall render it in quirks mode.</p>
+<p>That&#39;s about Doctypes...</p>
+
+    </section>
+    ﻿<footer class="page-footer">
+    
+        <div class="page-footer-content">
+    
+            <div>
+                <a href="/terms/">TERMS &amp; CONDITIONS</a> |
+                <a href="/code-of-conduct/">CODE OF CONDUCT</a>
+            </div>
+            <div>
+                &copy; &lt;web/F&gt; 2015 |
+                Graphics designed by <a target="_blank" href="http://www.freepik.com">Freepik</a> |
+                Icons made by
+                <a target="_blank" href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+                from
+                <a target="_blank" href="http://www.flaticon.com" title="Flaticon">Flaticon</a>
+                is licensed by
+                <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC by 3.0</a>
+            </div>
+        </div>
+    
+    </footer>
+    <script type="text/javascript" src="/js/bundle.js"></script>
+
+
+
+</body>
+
+</html>
