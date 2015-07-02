@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" type="text/css" href="/scss/main.css" />
     <link rel="stylesheet" type="text/css" href="/templates/topPages.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/blogPages.css" />
 
     <!-- Custom CSS files on page -->
 
@@ -41,9 +42,12 @@
         </ul>
     
     </header>    <section class="page-body clearfix">
-        <h2>Do browsers really need doctype?</h2>
-        <p>Published on: <time>2015-06-28</time> Last modified: <time>2015-06-30</time></p>
-        <p><strong>The simple answer is &quot;no&quot;.</strong> Theoretically, the browser does not care about Doctype declaration on HTML page.
+        <div class="row full-width">
+            <div class="columns small-12">
+                <h2>Do browsers really need doctype?</h2>
+            </div>
+            <article class="blog-main columns medium-8">
+                <p><strong>The simple answer is &quot;no&quot;.</strong> Theoretically, the browser does not care about Doctype declaration on HTML page.
 Having said that, let&#39;s try to explore what I really mean by that.</p>
 <p>When web started, it was all the rush.
 Everyone was building HTML pages to go online. There were no standards.
@@ -74,6 +78,16 @@ Here is a little question. If you use, say, Doctype for HTML 4 and try to includ
 The answer is certainly yes. It won&#39;t care for Doctype version. This will work even if Doctype is absent; just the thing is it shall render it in quirks mode.</p>
 <p>That&#39;s about Doctypes...</p>
 
+            </article>
+            <div class="blog-sidebar columns medium-4">
+                <p class="blog-published">Last modified: <time>2015 June, 30</time></p>
+                <p>TAGS</p>
+                <ul class="tag-list" role="navigation" title="Link List">
+                    <li class="tag-list-item" role="menuitem"><a href="#">html</a></li>
+                    <li class="tag-list-item" role="menuitem"><a href="#">fundamentals</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
     ﻿<footer class="page-footer">
     
