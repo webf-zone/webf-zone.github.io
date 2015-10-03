@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"events/events.css","sourcesContent":[],"sourceRoot":"/source/"}
+{"version":3,"sources":["events/events.css"],"names":[],"mappings":"AAAA,4BACE,cAAA","file":"events/events.css","sourcesContent":[".events-panel .annual-event {\n  margin-bottom: 50px; }\n\n"],"sourceRoot":"/source/"}
